@@ -592,4 +592,16 @@
   590  exit
   591  crontab -e
   592  exit
-  593  history
+  593  cd /var/log/myapp
+  594  history
+  595  ls
+  596  cd data
+  597  ls
+  598  cd ..
+  599  cd my_dashboard
+  600  ls
+  601  cd..
+  602  cd ..
+  603  crontab e-
+  604  crontab -e
+  605  history

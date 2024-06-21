@@ -1,0 +1,595 @@
+## Bash History of all comands that we used to set up our vps and create a dash app
+
+    1  ls
+    2  ls -l
+    3  pwd
+    4  mkdir data
+    5  ls
+    6  cd data
+    7  ls
+    8  cd
+    9  pwd
+   10  ls
+   11  mysql -V
+   12  apt install mysql-client-core-8.0  
+   13  exit
+   14  ls
+   15  mysql -V
+   16  mysql -p --local-infile=1
+   17  ls
+   18  cd data
+   19  nano fxday.py
+   20  ls
+   21  nano fxday.py
+   22  ls
+   23  touch fx.csv
+   24  ls
+   25  nano fxday.py
+   26  pip install pandas yfinance
+   27  apt install python3-pip
+   28  exit
+   29  ls
+   30  cd data
+   31  ls
+   32  pip install pandas yfinance
+   33  python3 fxday.py
+   34  ls
+   35  nano fxday.py
+   36  python3 fxday.py
+   37  ls
+   38  less fx.csv
+   39  python3 fxday.py
+   40  ls
+   41  less fx.csv
+   42  crontab -e
+   43  ls
+   44  nano fxday.py
+   45  python3 fxday.py
+   46  nano fxday.py
+   47  python3 fxday.py
+   48  nano fxday.py
+   49  python3 fxday.py
+   50  ls
+   51  less fx.csv 
+   52  exit
+   53  ls
+   54  cd data
+   55  ls
+   56  cd fx.csv
+   57  less fx.csv 
+   58  nano fxday.py
+   59  crontab -e
+   60  which python
+   61  which python3
+   62  crontab -e
+   63  python3 fxday.py
+   64  ls
+   65  less fx.csv
+   66  date
+   67  crontab -e
+   68  less fx.csv
+   69  date
+   70  less fx.csv
+   71  crontab -e
+   72  date
+   73  which python3
+   74  date
+   75  less fx.csv
+   76  date
+   77  pwd
+   78  which python3
+   79  crontab -e
+   80  date
+   81  less fx.csv
+   82  crontab -e
+   83  date
+   84  less fx.csv
+   85  grep CRON /var/log/syslog
+   86  crontab -e
+   87  ls
+   88  pwd
+   89  crontab -e
+   90  date
+   91  less fx.csv
+   92  python3 fxday.py
+   93  less fx.day
+   94  ls
+   95  less fx.csv
+   96  crontab -e
+   97  nano xday.py
+   98  nano fxday.py
+   99  crontab -e
+  100  less fx.csv
+  101  ls -l /root/data/fx.csv
+  102  nano fxday.py
+  103  less fx.csv
+  104  nano fxday.py
+  105  cd
+  106  ls
+  107  less fx.csv
+  108  ls
+  109  cd data
+  110  ls
+  111  nano fxday.py
+  112  python3 fxday.py
+  113  nano fxday.py
+  114  python3 fxday.py
+  115  nano fxday.py
+  116  python3 fxday.py
+  117  nano fxday.py
+  118  cd
+  119  ls
+  120  less fx.csv
+  121  nano fxday.py
+  122  cd data
+  123  nano fxday.py
+  124  python3 fxday.py
+  125  less fx.csv
+  126  ls
+  127  cd
+  128  ls
+  129  less fx.csv
+  130  exit
+  131  pwd
+  132  exit
+  133  ls
+  134  less fx.csv
+  135  exit
+  136  sudu apt update
+  137  sudo apt upgrade -y
+  138  sudo apt install certbot python3-certbot-nginx -y
+  139  sudo apt install python3 python3-pip -y
+  140  cd ~
+  141  mkdir my_dashboard
+  142  cd my_dashboard
+  143  nano app.py
+  144  python3 app.py
+  145  cd ~/my_dashboard
+  146  pip3 install dash plotly pandas
+  147  python3 app.py
+  148  cd ~/my_dashboard
+  149  pip3 install dash plotly pandas
+  150  nano app.py
+  151  python3 app.py
+  152  nano app.py
+  153  sudo ufw allow 8050
+  154  python3 app.py
+  155  nano app.py
+  156  python3 app.py
+  157  nano app.py
+  158  python3 app.py
+  159  nano app.py
+  160  python3 app.py
+  161  nano app.py
+  162  python 3 app.py
+  163  python3 app.py
+  164  nano app.py
+  165  python3 app.py
+  166  nano app.py
+  167  python3 app.py
+  168  hostname -I
+  169  curl http://127.0.0.1:8050
+  170  python3 app.py
+  171  cd ~/my_dashboard
+  172  python3 app.py
+  173  sudo lsof -i :8050
+  174  sudo kill -9 497835
+  175  python3 app.py
+  176  sudo kill -9 497835 497838
+  177  sudo lsof -i :8050
+  178  python3 app.py
+  179  sudo ufw status
+  180  sudo ufw enable
+  181  sudo ufw allow 8050
+  182  sudo ufw status
+  183  sudo systemctl stop nginx
+  184  python3 app.py
+  185  hostname -I
+  186  curl http://127.0.0.1:8050
+  187  python3 app.py
+  188  sudo ufw status
+  189  ~sudo ufw status
+  190  sudo apt update
+  191  sudo apt install ufw
+  192  sudo ufw enable
+  193  sudo ufw allow 8050
+  194  sudo ufw allow 8051
+  195  sudo ufw status
+  196  cd ~/my_dashboard
+  197  python3 app.py
+  198  nano app.py
+  199  python3 app.py
+  200  nano app.py
+  201  python3 app.py
+  202  nano app.py
+  203  python3 app.py
+  204  nano app.py
+  205  nano styles.css
+  206  mkdir assets
+  207  mv styles.css assets/
+  208  nano app.py
+  209  python3 app.py
+  210  nano styles.css
+  211  nano assets/styles.css
+  212  nano app.py
+  213  python3 app.py
+  214  nano app.py
+  215  python3 app.py
+  216  nano app.py
+  217  python3 app.py
+  218  nano app.py
+  219  python3 app.py
+  220  nano app.yp
+  221  nano app.py
+  222  python3 app.py
+  223  nano app.py
+  224  python3 app.py
+  225  nano app.py
+  226  python3 app.py
+  227  nano app.py
+  228  python3 app.py
+  229  nano app.py
+  230  python3 app.py
+  231  nano app.py
+  232  python3 app.py
+  233  nano app.py
+  234  python3 app.py
+  235  cd mydashboard
+  236  cd my_dashboard
+  237  python3 app.py
+  238  exit
+  239  ls
+  240  cd my_dashboard
+  241  rm -r assets
+  242  ls
+  243  python3 app.py
+  244  exit
+  245  ls
+  246  cd data
+  247  ls
+  248  nano sql.py
+  249  ls
+  250  python3 sql.py
+  251  nano sql.py
+  252  ls
+  253  python3 sql.py
+  254  nano sql.py
+  255  cd
+  256  ls
+  257  mysql -V
+  258  mysql -p --local-infile=1
+  259  sudo systemctl status mysql
+  260  sudo systemctl start mysql
+  261  mysql --version
+  262  sudo apt update
+  263  apt list --upgradable
+  264  mysql --version
+  265  sudo systemctl status mysql
+  266  sudo systemctl start mysql
+  267  mysql status
+  268  mysql
+  269  mysqld
+  270  sudo apt-get install libmariadb-client-lgpl-dev
+  271  sudo apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev
+  272  sudo apt-get install libssl-dev
+  273  mysql
+  274  mysqld
+  275  apt install mysql-server-core-8.0 
+  276  mysql
+  277  mysqld
+  278  mysqld -p --local-infile=1
+  279  mysql
+  280  mysql -p --local-infile=1
+  281  mariadb
+  282  apt install mariadb-client-core-10.6
+  283  mariadb
+  284  ls /var/run/mysqld/mysqld.sock
+  285  sudo nano /etc/mysql/my.cnf
+  286  cd
+  287  ls
+  288  mariadb -p --local-infile=1
+  289  sudo systemctl restart mysql
+  290  restart mysql
+  291  sudo restart mysql
+  292  sudo systemctl restart mariadb
+  293  sudo service mysqld start
+  294  sudo apt-get purge mysql-server
+  295  sudo apt-get autoremove
+  296  sudo apt-get autoclean
+  297  sudo apt-get update
+  298  sudo apt-get install mysql-server
+  299  mysql --version
+  300  sudo systemctl status mysql
+  301  mysql -p --local-infile=1
+  302  ls
+  303  mysql -p --local-infile=1
+  304  vim /etc/mysql/my.cnf
+  305  vim /etc/mysql/mysql.conf.d/mysqld.cnf
+  306  sudo systemctl restart mysql
+  307  service iptables stop
+  308  mysql.server start
+  309  mysql
+  310  mysql -u root -p -h 127.0.0.1
+  311  vim /etc/mysql/mysql.conf.d/mysqld.cnf
+  312  sudo systemctl restart mysql
+  313  vim /etc/mysql/mysql.conf.d/mysqld.cnf
+  314  exit
+  315  ls
+  316  cd data
+  317  ls
+  318  nano sql.py
+  319  python3 sql.py
+  320  pip install mysql-connector-python
+  321  python3 sql.py
+  322  mysql -p --local-infile=1
+  323  ls
+  324  nano sql.py
+  325  python3 sql.py
+  326  mysql -p --local-infile=1
+  327  python3 sql.py
+  328  mysql -p --local-infile=1
+  329  python3 sql.py
+  330  nano sql.py
+  331  python3 sql.py
+  332  exit
+  333  mysql -p --local-infile=1
+  334  exit
+  335  ls
+  336  cd data
+  337  ls
+  338  nano sql.py
+  339  python3 sql.py
+  340  exit
+  341  ufw status
+  342  ufw allow 22
+  343  ufw reload
+  344  ls
+  345  pip install mysql-connector-python yfinance
+  346  cd data
+  347  nano ~/fetch_quotes.py
+  348  mysql -u root -p
+  349  python3 ~/fetch_quotes.py
+  350  mysql -u root -p
+  351  pip install mysql-connector-python yfinance
+  352  mysql -u root -p
+  353  mysql -u getdata -p
+  354  nano fetch_quotes.py
+  355  python3 ~/fetch_quotes.py
+  356  mysql -u root -p
+  357  nano ~/fetch_quotes.py
+  358  mysql -u root -p
+  359  nano ~/fetch_quotes.py
+  360  python3 ~/fetch_quotes.py
+  361  mysql -u getdata -p
+  362  python3 ~/fetch_quotes.py
+  363  nano ~/fetch_quotes.py
+  364  python3 ~/fetch_quotes.py
+  365  crontab -e
+  366  nano ~/fetch_quotes.py
+  367  crontab -e
+  368  chmod +x ~/fetch_quotes.py
+  369  cat /home/yourusername/cron.log
+  370  cat /home/root/data/cron.log
+  371  cat /home/root/cron.log
+  372  crontab -e
+  373  nano fetch_data.py
+  374  nano fetch_quotes.py
+  375  chmod +x /root/fetch_quotes.py
+  376  crontab -e
+  377  cat /root/data/cron.log
+  378  nano /root/start_dashboard.sh
+  379  nano /root/start_dashboard.sh
+  380  chmod +x /root/start_dashboard.sh
+  381  crontab -e
+  382  sudo reboot
+  383  cd /root/data
+  384  nano fetch_quotes.py
+  385  chmod +x /root/data/fetch_quotes.py
+  386  cat /root/data/cron.log
+  387  nano /root/data/fetch_quotes.py
+  388  chmod +x /root/data/fetch_quotes.py
+  389  crontab -e
+  390  cat /root/data/cron.log
+  391  /usr/bin/python3 /root/data/fetch_quotes.py
+  392  mysql -u getdata -p
+  393  cd ..
+  394  pwd
+  395  cd my_dashboard
+  396  nano app.py
+  397  cd ..
+  398  cd data
+  399  ls
+  400  cd ..
+  401  pip install sqlalchemy pandas
+  402  cd my_dashboard
+  403  nano app.py
+  404  cd ..
+  405  cd data
+  406  ls
+  407  cd ..
+  408  cd my_dashboard
+  409  nano app.py
+  410  python3 app.py
+  411  ls /root/data/fetch_quotes.db
+  412  sqlite3 /root/data/fetch_quotes.db
+  413  sudo apt update
+  414  sudo apt install sqlite3
+  415  sqlite3 /root/data/fetch_quotes.db
+  416  cd ..
+  417  cd data
+  418  nano fetch_quotes.py
+  419  pip install mysql-connector-python
+  420  nano app.py
+  421  cd ..
+  422  cd my_dashboard
+  423  nano app.py
+  424  python3 app.py
+  425  nano app.py
+  426  python3 app.py
+  427  pip install SQLAlchemy
+  428  nano app.py
+  429  python3 app.py
+  430  nano app.py
+  431  python3 app.py
+  432  nano app.py
+  433  python3 app.py
+  434  cd root
+  435  cd ..
+  436  ls
+  437  nano run_dash_app.sh
+  438  chmod +x /root/run_dash_app.sh
+  439  crontab -e
+  440  reboot
+  441  ps aux | grep app.py
+  442  nano run_dash_app.sh
+  443  pkill -f app.py
+  444  ps aux | grep app.py
+  445  /root/run_dash_app.sh
+  446  reboot
+  447  ls
+  448  nano fetch_quotes.py
+  449  reboot
+  450  mysql
+  451  mysql -p --local-infile=1
+  452  exit
+  453  cd data
+  454  nano fetch_quotes
+  455  ls
+  456  nano fetch_quotes.py
+  457  ls
+  458  mysql -u root -p
+  459  cp ..
+  460  pc ..
+  461  cd ..
+  462  cd my_dashboard
+  463  ls
+  464  nano dash_app.log
+  465  nano app.py
+  466  crontab -l
+  467  crontab e
+  468  crontab -e
+  469  mysql -u root -p
+  470  exit
+  471  cd mydashboard
+  472  cd my_dashboard
+  473  nano app.py
+  474  python3 app.py
+  475  nano app.py
+  476  crontab -e
+  477  cd ..
+  478  cd data
+  479  nano fetch_quotes.py
+  480  nano run_dash_app.sh
+  481  cd ..
+  482  ls
+  483  nano run_dash_app.sh
+  484  crontab -l
+  485  chmod +x /path/to/your/run_dash_app.sh
+  486  nano run_dash_app.sh
+  487  chmod +x /path/to/your/run_dash_app.sh
+  488  nano run_dash_app.sh
+  489  chmod +x /root/scripts/run_dash_app.sh
+  490  chmod +x /root/run_dash_app.sh
+  491  nano /root/run_fetch_quotes.sh
+  492  chmod +x /root/run_fetch_quotes.sh
+  493  crontab -e
+  494  ls
+  495  cd data
+  496  ls
+  497  cd ..
+  498  cd mydashboard
+  499  cd my_dashboard
+  500  ls
+  501  cd ..
+  502  cd snap
+  503  ls
+  504  crontab -e
+  505  cd ..
+  506  nano /root/run_fetch_quotes.sh
+  507  chmod +x /root/run_fetch_quotes.sh
+  508  ~chmod +x /root/run_fetch_quotes.sh
+  509  chmod +x /root/run_fetch_quotes.sh
+  510  crontab -e
+  511  sudo reboot
+  512  tail -f /root/logs/dash_app.log
+  513  tail -f /root/my_dashboard/dash_app.log
+  514  nano /root/run_dash_app.sh
+  515  ls
+  516  nano /root/run_fetch_quotes.sh
+  517  chmod +x /root/run_dash_app.sh
+  518  chmod +x /root/run_fetch_quotes.sh
+  519  crontab -e
+  520  sudo reboot
+  521  exit
+  522  cd my_dashboard
+  523  nano app.py
+  524  exit
+  525  date
+  526  crontab -e
+  527  tail -f /root/dash_app.log
+  528  tail -f /root/my_dashboard/dash_app.log
+  529  sudo reboot
+  530  cd my_dashboard
+  531  nano app.py
+  532  tail -f /root/dash_app.log
+  533  tail -f /root/my_dashboard/dash_app.log
+  534  nano app.py
+  535  python3 app.py
+  536  nano app.py
+  537  python3 app.py
+  538  nano app.py
+  539  python3 app.py
+  540  nano app.py
+  541  python3 app.py
+  542  nano app.py
+  543  python3 app.py
+  544  nano app.py
+  545  python3 app.py
+  546  nano app.py
+  547  sudo systemctl restart your_dash_app_service
+  548  python3 app.py
+  549  nano app.py
+  550  python3 app.py
+  551  nano app.py
+  552  python3 app.py
+  553  nano app.py
+  554  python3 app.py
+  555  nano app.py
+  556  python3 app.py
+  557  nano app.py
+  558  cd ..
+  559  crontab -e
+  560  nano restart_dash_app.sh
+  561  chmod +x /path/to/restart_dash_app.sh
+  562  chmod +x /root/restart_dash_app.sh
+  563  cd my_dashboard
+  564  nano app.py
+  565  python3 app.py
+  566  cd ..
+  567  tail -f /root/data/cron.log
+  568  tail -f /root/restart_dash_app.log
+  569  nanorestart_dash_app.sh
+  570  nano restart_dash_app.sh
+  571  chmod +x /root/restart_dash_app.sh
+  572  crontab -e
+  573  sudo nano /etc/systemd/system/dash_app.service
+  574  sudo systemctl enable dash_app.service
+  575  sudo systemctl start dash_app.service
+  576  tail -f /root/restart_dash_app.log
+  577  sudo systemctl status dash_app.service
+  578  tail -f /root/my_dashboard/dash_app.log
+  579  cd my_dashboard
+  580  nano app.py
+  581  exit
+  582  crontab -e
+  583  crontab -l
+  584  sudo crontab -l
+  585  sudo cat /etc/crontab
+  586  ls /etc/cron.d/
+  587  sudo cat /etc/cron.d/filename
+  588  ps aux | grep fetch_quotes.py
+  589  tail -f /root/data/cron.log
+  590  exit
+  591  crontab -e
+  592  exit
+  593  history
